@@ -8,6 +8,9 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 
+/**
+ * @author K
+ */
 @Configuration
 @Component
 public class RedisPoolFactory {
@@ -23,8 +26,8 @@ public class RedisPoolFactory {
         jedisPoolConfig.setMaxWaitMillis(redisConfig.getMaxWait() * 1000);
         jedisPoolConfig.setMaxTotal(redisConfig.getMaxActive());
         JedisPool jedisPool = new JedisPool(jedisPoolConfig, redisConfig.getHost(), redisConfig.getPort()
-                , redisConfig.getTimeout() * 1000,redisConfig.getPassword(),0);
+                , redisConfig.getTimeout() * 1000, redisConfig.getPassword(), 0);
         return jedisPool;
     }
-
 }
+

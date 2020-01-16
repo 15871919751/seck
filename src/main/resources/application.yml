@@ -5,13 +5,13 @@ server:
 
 
 spring:
-  thymeleaf:
-    prefix: classpath:/templates/
-    suffix: .html
-    check-template-location: true
-    encoding: UTF-8
-    mode: HTML5
-    cache: false
+#  thymeleaf:
+#    prefix: classpath:/templates/
+#    suffix: .html
+#    check-template-location: true
+#    encoding: UTF-8
+#    mode: HTML5
+#    cache: false
 
   #连接池
   datasource:

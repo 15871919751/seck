@@ -1,17 +1,19 @@
 package org.ct.seckill.redis;
 
 import com.alibaba.fastjson.JSON;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
 
+
+/**
+ * @author K
+ */
 @Component
 @Configuration
 @SpringBootTest
@@ -21,16 +23,43 @@ public class RedisService {
     @Qualifier(value = "jedisPool")
     private JedisPool jedisPool;
 
-    public <T> T get(String key, Class<T> clazz) {
+    public <T> T get(KeyPrefix prefix,String key, Class<T> clazz) {
         Jedis jedis = null;
         try {
             jedis = jedisPool.getResource();
-            String str = jedis.get(key);
+            String realKey = prefix.getPrefix() + key;
+            String str = jedis.get(realKey);
             return stringToBean(str, clazz);
         } finally {
             returnToPool(jedis);
         }
+
     }
+
+
+    public <T> Long incr(KeyPrefix prefix,String key) {
+        Jedis jedis = null;
+        try {
+            jedis = jedisPool.getResource();
+            String realKey = prefix.getPrefix() + key;
+            return jedis.incr(realKey);
+        } finally {
+            returnToPool(jedis);
+        }
+    }
+
+
+    public <T> Long decr(KeyPrefix prefix,String key) {
+        Jedis jedis = null;
+        try {
+            jedis = jedisPool.getResource();
+            String realKey = prefix.getPrefix() + key;
+            return jedis.decr(realKey);
+        } finally {
+            returnToPool(jedis);
+        }
+    }
+
 
     private <T> T stringToBean(String str, Class<T> clazz) {
         if (str == null || str.length() <= 0 || clazz == null) {
@@ -47,7 +76,7 @@ public class RedisService {
 
     }
 
-    public <T> boolean set(String key, T value) {
+    public <T> boolean set(KeyPrefix prefix,String key, T value) {
         Jedis jedis = null;
         try {
             jedis = jedisPool.getResource();
@@ -55,7 +84,13 @@ public class RedisService {
             if (str == null || str.length() <= 0) {
                 return false;
             } else {
-                jedis.set(key, str);
+                String realKey = prefix.getPrefix() + key;
+                int seconds = prefix.expireSeconds();
+                if (seconds <= 0) {
+                    jedis.set(realKey, str);
+                } else {
+                    jedis.setex(realKey, seconds, str);
+                }
                 return true;
             }
 
