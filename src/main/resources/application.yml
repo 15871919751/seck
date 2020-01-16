@@ -1,0 +1,70 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /seckill
+
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    check-template-location: true
+    encoding: UTF-8
+    mode: HTML5
+    cache: false
+
+  #连接池
+  datasource:
+    username: root
+    password: password123123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seckill?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    druid:
+      filters: stat,wall,slf4j,config
+      max-active: 100
+      initial-size: 1
+      max-wait: 60000
+      min-idle: 1
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: select 'x'
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      max-open-prepared-statements: 50
+      max-pool-prepared-statement-per-connection-size: 20
+
+  #配置缓存
+  #redis:
+  #  port: 6379
+  #  host: localhost #106.13.46.205
+  #  timeout: 3000
+  #  jedis:
+  #    pool:
+  #      max-active: 8
+  #      max-idle: 10
+  #      max-wait: 3
+  #  database: 0
+  #  password:
+
+
+redis:
+  host: 47.101.133.15 #localhost
+  port: 6379
+  timeout: 3
+  maxActive: 8
+  maxIdle: 10
+  maxWait: 3
+  password: 123456
+
+# mybatis
+mybatis:
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: org.ct.seckill.domain
+  configuration:
+    map-underscore-to-camel-case: true
+
+# 日志
+logging:
+  level:
+    org.ct.seckill.* : debug
