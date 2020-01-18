@@ -6,8 +6,8 @@ import org.ct.seckill.redis.RedisService;
 import org.ct.seckill.redis.UserKey;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
@@ -21,13 +21,13 @@ public class SampleController {
     @Autowired
     private RedisService redisService;
 
-    @RequestMapping(path = "/set", method = RequestMethod.GET)
+    @GetMapping(path = "/set")
     public void setRedis() {
         User user = User.builder().id(1).name("111").build();
         redisService.set(UserKey.getById,""+1 ,user);
     }
 
-    @RequestMapping(path = "/get", method = RequestMethod.GET)
+    @GetMapping(path = "/get")
     @ResponseBody
     public User getRedis() {
         return redisService.get(UserKey.getById,""+1, User.class);

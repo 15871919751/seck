@@ -1,13 +1,5 @@
 package org.ct.seckill.redis;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import org.springframework.data.redis.support.atomic.RedisAtomicLong;
-
-import java.io.Serializable;
-
 /**
  * @Author K
  * @Date 2020/1/16 22:32
@@ -17,13 +9,14 @@ import java.io.Serializable;
 public interface KeyPrefix  {
    /**
     * 获取key值前缀
-    *
+    * @return 返回 key前缀
     * */
      String getPrefix();
 
     /**
      * 设置失效时间
+     * @return  返回key的有效时间 0永不过期
      * */
-     Integer expireSeconds();
+     int expireSeconds();
 
 }

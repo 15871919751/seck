@@ -1,6 +1,4 @@
 package org.ct.seckill.redis;
-
-import io.swagger.models.auth.In;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
@@ -37,7 +35,7 @@ public abstract class BasePrefix implements KeyPrefix {
      * 默认0 代表永不过期
      * */
     @Override
-    public Integer expireSeconds() {
+    public int expireSeconds() {
         return expireSeconds;
     }
 }

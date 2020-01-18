@@ -3,7 +3,6 @@ package org.ct.seckill.redis;
 import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
@@ -16,7 +15,6 @@ import redis.clients.jedis.JedisPool;
  */
 @Component
 @Configuration
-@SpringBootTest
 public class RedisService {
 
     @Autowired
@@ -36,8 +34,21 @@ public class RedisService {
 
     }
 
+    /**
+     * 判断key是否存在
+     * */
+    public  Boolean exists(KeyPrefix prefix,String key) {
+        Jedis jedis = null;
+        try {
+            jedis = jedisPool.getResource();
+            String realKey = prefix.getPrefix() + key;
+            return jedis.exists(realKey);
+        } finally {
+            returnToPool(jedis);
+        }
+    }
 
-    public <T> Long incr(KeyPrefix prefix,String key) {
+    public  Long incr(KeyPrefix prefix,String key) {
         Jedis jedis = null;
         try {
             jedis = jedisPool.getResource();
@@ -49,7 +60,7 @@ public class RedisService {
     }
 
 
-    public <T> Long decr(KeyPrefix prefix,String key) {
+    public  Long decr(KeyPrefix prefix,String key) {
         Jedis jedis = null;
         try {
             jedis = jedisPool.getResource();
@@ -73,7 +84,6 @@ public class RedisService {
         } else {
             return JSON.parseObject(str, clazz);
         }
-
     }
 
     public <T> boolean set(KeyPrefix prefix,String key, T value) {
@@ -93,7 +103,6 @@ public class RedisService {
                 }
                 return true;
             }
-
         } finally {
             returnToPool(jedis);
         }
