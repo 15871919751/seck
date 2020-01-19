@@ -1,5 +1,5 @@
 server:
-  port: 9000
+  port: 8080
   servlet:
     context-path: /seckill
 
@@ -56,3 +56,4 @@ mybatis:
 logging:
   level:
     org.ct.seckill.* : debug
+sOfServiceUrl: http://www.baidu.com

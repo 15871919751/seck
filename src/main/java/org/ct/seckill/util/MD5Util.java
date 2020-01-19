@@ -1,5 +1,6 @@
 package org.ct.seckill.util;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 
 /**
@@ -7,6 +8,7 @@ import org.apache.commons.codec.digest.DigestUtils;
  * @Date 2020/1/17 23:48
  * @Version 1.0
  */
+@Slf4j
 public class MD5Util {
 
     public static String md5(String str) {
@@ -41,7 +43,7 @@ public class MD5Util {
     }
 
     public static void main(String[] args) {
-        System.out.println(inputPassToFormPass("123456"));
+        log.info(inputPassToFormPass("123456"));
     }
 
 }

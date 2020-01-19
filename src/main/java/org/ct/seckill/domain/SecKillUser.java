@@ -1,13 +1,15 @@
 package org.ct.seckill.domain;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
-
 import javax.persistence.*;
 import java.util.Date;
+
+
 
 /**
  * @Author K
@@ -26,31 +28,38 @@ public class SecKillUser {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
+
     @Basic
     @Column(name = "nickname", nullable = false)
     /** 真实姓名*/
     private String nickname;
+
     @Basic
     @Column(name = "password")
     /** 密码*/
     private String password;
+
     @Basic
     @Column(name = "salt")
     /** 加盐字符串*/
     private String salt;
+
     @Basic
     @Column(name = "head")
     /** 头像 云储存的ID*/
     private String head;
+
     @Basic
     @Column(name = "register_date")
+    @CreatedDate
     /** 注册时间*/
     private Date registerDate;
+
     @Basic
     @Column(name = "last_login_date")
-    @CreatedDate
     /** 最后登录时间*/
     private Date lastLoginDate;
+
     @Basic
     @Column(name = "login_count")
     /** 登录次数*/
@@ -66,7 +75,8 @@ public class SecKillUser {
     }
 
     public static SecKillUser invaild() {
-        SecKillUser invaild = new SecKillUser("无效姓名", "无效密码", "", "", new Date(), null);
+
+        SecKillUser invaild = new SecKillUser("无效姓名", "无效密码","","" ,new Date(), 0);
         invaild.setId(-1L);
         return invaild;
     }
