@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
  */
 public class GongjuClass {
     public static void main(String[] args) throws ParseException {
-
-
+        int n = -11;
+        System.out.println((n^(n>>31))+ (n>>>31));
     }
 }

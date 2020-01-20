@@ -1,7 +1,14 @@
 function login(){
     $('#loginForm').validate({
         submitHandler:function(form){
-            doLogin();
+            var captcha1 = new TencentCaptcha('2098093657', function (res) {
+                if (res.ret == 0) {
+                    doLogin();
+                } else {
+                    layer.msg("校验失败");
+                }
+            });
+            captcha1.show();
         }
     });
 }
