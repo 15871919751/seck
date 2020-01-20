@@ -18,17 +18,18 @@ function doLogin(){
         },
         success : function(data){
             layer.closeAll();
-            // if(data.code == 200){
-            //     layer.msg("登录成功",{time: 1000},function(){
-            //         window.location.href="/seckill/goods/to_list";
-            //     });
-            // }else{
-            //     alert(data.msg);
-            // }
+            console.log(data)
+            if(data.state == 200){
+                layer.msg("登录成功", {time: 1000}, function () {
+                    // window.location.href="/seckill/goods/to_list";
+                });
+            }else{
+                layer.msg(data.msg);;
+            }
         },
         error: function(XMLHttpRequest, textStatus, errorThrown) {
             layer.closeAll();
-            // alert("异常");
+            layer.msg("服务器发生异常");
         }
     });
 }
