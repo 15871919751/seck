@@ -1,0 +1,65 @@
+2020-01-20 00:00:38.576[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 9284 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 00:00:38.657[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 00:00:46.887[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.498 seconds (JVM running for 12.6)
+2020-01-20 00:03:04.221[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 18540 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 00:03:04.229[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 00:03:13.058[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.964 seconds (JVM running for 13.311)
+2020-01-20 00:05:38.353[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 4052 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 00:05:38.360[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 00:05:48.145[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 10.972 seconds (JVM running for 14.448)
+2020-01-20 09:19:58.396[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 11808 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 09:19:58.411[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 09:20:07.401[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 10.194 seconds (JVM running for 15.177)
+2020-01-20 09:44:45.552[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 14992 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 09:44:45.560[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 09:44:53.680[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.282 seconds (JVM running for 15.672)
+2020-01-20 09:45:31.831[http-nio-8080-exec-2] INFO  org.ct.seckill.controller.LoginController - LoginVo(mobile=15871919711, password=d3b1294a61a07da9b49b6e22b2cbd7f9)
+2020-01-20 09:45:32.447[http-nio-8080-exec-2] INFO  org.ct.seckill.controller.LoginController - get mobile -> 15871919711
+2020-01-20 09:45:32.447[http-nio-8080-exec-2] INFO  org.ct.seckill.controller.LoginController - secKillUser -> SecKillUser(id=15871919711, nickname=him, password=d3b1294a61a07da9b49b6e22b2cbd7f9, salt=1a2b3c4d, head=null, registerDate=2017-11-20 00:00:00.0, lastLoginDate=2017-11-20 00:00:00.0, loginCount=1)
+2020-01-20 09:45:32.449[http-nio-8080-exec-2] INFO  org.ct.seckill.controller.LoginController - MyException(state=200, msg=success)
+2020-01-20 09:45:57.142[http-nio-8080-exec-4] INFO  org.ct.seckill.controller.LoginController - LoginVo(mobile=15871919751, password=d3b1294a61a07da9b49b6e22b2cbd7f9)
+2020-01-20 09:45:57.150[http-nio-8080-exec-4] INFO  org.ct.seckill.controller.LoginController - get mobile -> 15871919751
+2020-01-20 09:45:57.150[http-nio-8080-exec-4] INFO  org.ct.seckill.controller.LoginController - secKillUser -> SecKillUser(id=-1, nickname=无效姓名, password=无效密码, salt=, head=, registerDate=null, lastLoginDate=Mon Jan 20 09:45:57 CST 2020, loginCount=0)
+2020-01-20 09:50:26.466[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 9816 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 09:50:26.473[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 09:50:44.257[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 18.795 seconds (JVM running for 25.268)
+2020-01-20 09:53:09.546[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 4948 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 09:53:09.554[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 09:53:15.962[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 19944 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 09:53:15.971[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 09:53:28.015[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 13.594 seconds (JVM running for 18.672)
+2020-01-20 10:37:08.385[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 11936 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 10:37:08.393[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 10:37:20.792[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 13.703 seconds (JVM running for 17.952)
+2020-01-20 11:54:19.501[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 13960 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 11:54:19.510[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 11:54:28.107[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 10.172 seconds (JVM running for 13.463)
+2020-01-20 11:55:08.291[http-nio-8080-exec-4] INFO  org.ct.seckill.controller.LoginController - LoginVo(mobile=15871919751, password=d3b1294a61a07da9b49b6e22b2cbd7f9)
+2020-01-20 11:55:08.556[http-nio-8080-exec-4] INFO  org.ct.seckill.controller.LoginController - get mobile -> 15871919751
+2020-01-20 11:55:08.557[http-nio-8080-exec-4] INFO  org.ct.seckill.controller.LoginController - secKillUser -> SecKillUser(id=-1, nickname=无效姓名, password=无效密码, salt=, head=, registerDate=null, lastLoginDate=Mon Jan 20 11:55:08 CST 2020, loginCount=0)
+2020-01-20 11:55:59.658[http-nio-8080-exec-5] INFO  org.ct.seckill.controller.LoginController - LoginVo(mobile=15871919751, password=d3b1294a61a07da9b49b6e22b2cbd7f9)
+2020-01-20 11:55:59.666[http-nio-8080-exec-5] INFO  org.ct.seckill.controller.LoginController - get mobile -> 15871919751
+2020-01-20 11:55:59.666[http-nio-8080-exec-5] INFO  org.ct.seckill.controller.LoginController - secKillUser -> SecKillUser(id=-1, nickname=无效姓名, password=无效密码, salt=, head=, registerDate=null, lastLoginDate=Mon Jan 20 11:55:59 CST 2020, loginCount=0)
+2020-01-20 11:56:32.303[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 9480 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 11:56:32.310[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 11:56:41.315[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 10.31 seconds (JVM running for 13.883)
+2020-01-20 11:58:02.699[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 16488 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 11:58:02.751[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 11:58:11.962[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 11.222 seconds (JVM running for 14.295)
+2020-01-20 12:24:18.042[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 3364 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 12:24:18.048[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 12:24:25.910[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.065 seconds (JVM running for 12.702)
+2020-01-20 12:27:10.341[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 3864 (F:\sec\target\classes started by A555L in F:\sec)
+2020-01-20 12:27:10.347[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-01-20 12:27:18.679[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.448 seconds (JVM running for 13.232)
+2020-01-20 12:28:12.174[http-nio-8080-exec-4] INFO  org.ct.seckill.controller.LoginController - LoginVo(mobile=15871919751, password=d3b1294a61a07da9b49b6e22b2cbd7f9)
+2020-01-20 12:28:12.404[http-nio-8080-exec-4] INFO  org.ct.seckill.controller.LoginController - get mobile -> 15871919751
+2020-01-20 12:28:12.405[http-nio-8080-exec-4] INFO  org.ct.seckill.controller.LoginController - secKillUser -> SecKillUser(id=-1, nickname=无效姓名, password=无效密码, salt=, head=, registerDate=null, lastLoginDate=Mon Jan 20 12:28:12 CST 2020, loginCount=0)
+2020-01-20 12:28:23.450[http-nio-8080-exec-5] INFO  org.ct.seckill.controller.LoginController - LoginVo(mobile=15871919711, password=d3b1294a61a07da9b49b6e22b2cbd7f9)
+2020-01-20 12:28:23.486[http-nio-8080-exec-5] INFO  org.ct.seckill.controller.LoginController - get mobile -> 15871919711
+2020-01-20 12:28:23.486[http-nio-8080-exec-5] INFO  org.ct.seckill.controller.LoginController - secKillUser -> SecKillUser(id=15871919711, nickname=him, password=d3b1294a61a07da9b49b6e22b2cbd7f9, salt=1a2b3c4d, head=null, registerDate=2017-11-20 00:00:00.0, lastLoginDate=2017-11-20 00:00:00.0, loginCount=1)
+2020-01-20 12:28:23.486[http-nio-8080-exec-5] INFO  org.ct.seckill.controller.LoginController - MyException(state=200, msg=success)
+2020-01-20 12:29:47.935[http-nio-8080-exec-7] INFO  org.ct.seckill.controller.LoginController - LoginVo(mobile=15871919711, password=d3b1294a61a07da9b49b6e22b2cbd7f9)
+2020-01-20 12:29:47.946[http-nio-8080-exec-7] INFO  org.ct.seckill.controller.LoginController - get mobile -> 15871919711
+2020-01-20 12:29:47.946[http-nio-8080-exec-7] INFO  org.ct.seckill.controller.LoginController - secKillUser -> SecKillUser(id=15871919711, nickname=him, password=d3b1294a61a07da9b49b6e22b2cbd7f9, salt=1a2b3c4d, head=null, registerDate=2017-11-20 00:00:00.0, lastLoginDate=2017-11-20 00:00:00.0, loginCount=1)
+2020-01-20 12:29:47.947[http-nio-8080-exec-7] INFO  org.ct.seckill.controller.LoginController - MyException(state=200, msg=success)
