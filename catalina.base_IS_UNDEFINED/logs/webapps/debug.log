@@ -1,21 +1,38 @@
-2020-01-20 00:00:38.604[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 00:03:04.228[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 00:05:38.359[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 09:19:58.409[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 09:44:45.559[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 09:45:31.833[http-nio-8080-exec-2] DEBUG org.ct.seckill.service.impl.SeckillUserServiceImpl - getUser by id -> 15871919711
-2020-01-20 09:45:57.143[http-nio-8080-exec-4] DEBUG org.ct.seckill.service.impl.SeckillUserServiceImpl - getUser by id -> 15871919751
-2020-01-20 09:50:26.472[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 09:53:09.553[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 09:53:15.970[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 10:37:08.391[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 11:54:19.508[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 11:55:08.295[http-nio-8080-exec-4] DEBUG org.ct.seckill.service.impl.SeckillUserServiceImpl - getUser by id -> 15871919751
-2020-01-20 11:55:59.658[http-nio-8080-exec-5] DEBUG org.ct.seckill.service.impl.SeckillUserServiceImpl - getUser by id -> 15871919751
-2020-01-20 11:56:32.309[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 11:58:02.750[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 12:24:18.048[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 12:27:10.346[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-20 12:28:12.177[http-nio-8080-exec-4] DEBUG org.ct.seckill.service.impl.SeckillUserServiceImpl - getUser by id -> 15871919751
-2020-01-20 12:28:23.450[http-nio-8080-exec-5] DEBUG org.ct.seckill.service.impl.SeckillUserServiceImpl - getUser by id -> 15871919711
-2020-01-20 12:29:47.936[http-nio-8080-exec-7] DEBUG org.ct.seckill.service.impl.SeckillUserServiceImpl - getUser by id -> 15871919711
+2020-01-27 00:10:24.813[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 00:19:07.615[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 00:34:35.061[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 01:14:57.813[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 01:24:42.998[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 01:29:15.110[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 01:36:50.663[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 01:38:38.391[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 01:39:59.659[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 01:41:37.260[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 01:47:28.617[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 01:56:28.124[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 02:00:19.465[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 02:03:28.281[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 02:04:16.258[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 02:05:12.440[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 11:53:48.988[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 11:58:29.987[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 12:04:31.754[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 12:08:16.096[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 12:29:19.834[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 12:40:18.557[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 12:43:45.269[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 13:18:38.332[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 13:23:49.449[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 13:24:54.539[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - ==>  Preparing: select * from miaosha_user where id = ? 
+2020-01-27 13:24:54.666[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - ==> Parameters: 15871919751(Long)
+2020-01-27 13:24:54.728[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - <==      Total: 1
+2020-01-27 13:24:56.293[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: select g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join Goods g on mg.goods_id=g.id 
+2020-01-27 13:24:56.299[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-01-27 13:24:56.307[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-01-27 13:33:48.968[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 13:34:26.139[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - ==>  Preparing: select * from miaosha_user where id = ? 
+2020-01-27 13:34:26.267[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - ==> Parameters: 15871919751(Long)
+2020-01-27 13:34:26.298[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - <==      Total: 1
+2020-01-27 13:34:27.816[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: select g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join Goods g on mg.goods_id=g.id 
+2020-01-27 13:34:27.824[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-01-27 13:34:27.833[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2

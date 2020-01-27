@@ -24,12 +24,12 @@ public class SampleController {
     @GetMapping(path = "/set")
     public void setRedis() {
         User user = User.builder().id(1).name("111").build();
-        redisService.set(UserKey.getById,""+1 ,user);
+        redisService.set(UserKey.GET_BY_ID,""+1 ,user);
     }
 
     @GetMapping(path = "/get")
     @ResponseBody
     public User getRedis() {
-        return redisService.get(UserKey.getById,""+1, User.class);
+        return redisService.get(UserKey.GET_BY_ID,""+1, User.class);
     }
 }

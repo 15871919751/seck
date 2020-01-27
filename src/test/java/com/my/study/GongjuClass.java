@@ -1,8 +1,6 @@
 package com.my.study;
 
-import java.sql.Date;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.io.*;
 
 /**
  * @Author K
@@ -10,8 +8,17 @@ import java.text.SimpleDateFormat;
  * @Version 1.0
  */
 public class GongjuClass {
-    public static void main(String[] args) throws ParseException {
-        int n = -11;
-        System.out.println((n^(n>>31))+ (n>>>31));
+    public static void main(String[] args) throws IOException {
+        FileInputStream fis = new FileInputStream("C:\\Users\\A555L\\Desktop\\aalf.dat");
+        InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
+        BufferedReader br = new BufferedReader(isr);
+        String stringBuffer = "";
+        String line = null;
+        while ((line = br.readLine()) != null) {
+            stringBuffer += line;
+            stringBuffer += "\r\n"; // 补上换行符   
+        }
+        System.out.println(stringBuffer);
+
     }
 }

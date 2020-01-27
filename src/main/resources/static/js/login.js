@@ -28,7 +28,7 @@ function doLogin(){
             console.log(data)
             if(data.state == 200){
                 layer.msg("登录成功", {time: 1000}, function () {
-                    // window.location.href="/seckill/goods/to_list";
+                    window.location.href="/seckill/goods/to_list";
                 });
             }else{
                 layer.msg(data.msg);;

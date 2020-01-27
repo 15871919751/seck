@@ -15,7 +15,8 @@ import javax.validation.constraints.Pattern;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class LoginVo {
+public class
+LoginVo {
     @NotBlank(message = "手机号码不能为空")
     @Pattern(regexp = "^1(3|4|5|7|8)\\d{9}$",message = "手机号码格式错误")
     private String mobile;

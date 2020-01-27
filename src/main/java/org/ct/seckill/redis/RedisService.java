@@ -123,6 +123,20 @@ public class RedisService {
 
     }
 
+    /**
+     * @param
+     * */
+    public void clearKey(KeyPrefix prefix,String key) {
+        Jedis jedis = null;
+        try {
+            jedis = jedisPool.getResource();
+            String realKey = prefix.getPrefix() + key;
+            jedis.del(realKey);
+        } finally {
+            returnToPool(jedis);
+        }
+    }
+
     private void returnToPool(Jedis jedis) {
         if (jedis != null) {
             jedis.close();
