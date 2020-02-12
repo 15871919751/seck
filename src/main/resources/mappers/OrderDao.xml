@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.ct.seckill.dao.OrderDao">
+
+    <select id="getSecKillOrderByUserIdGoodsId" resultType="org.ct.seckill.domain.MiaoshaOrder">
+    SELECT * FROM miaosha_order WHERE user_id=#{userId} and goods_id= #{goodsId};
+     </select>
+
+    <insert id="insert" parameterType="org.ct.seckill.domain.OrderInfo" useGeneratedKeys="true"
+            keyProperty="id" keyColumn="id">
+      INSERT INTO order_info(user_id,goods_id,goods_name,goods_count,goods_price,order_channel,status,create_date) VALUES(
+   #{userId},#{goodsId},#{goodsName},#{goodsCount},#{goodsPrice},#{orderChannel},#{status},#{createDate}
+);
+    </insert>
+
+    <insert id="insertMiaoShaOrder" parameterType="org.ct.seckill.domain.MiaoshaOrder" useGeneratedKeys="true"
+            keyProperty="id" keyColumn="id">
+           INSERT INTO miaosha_order(user_id,order_id,goods_id) VALUES(
+#{userId},#{orderId},#{goodsId});
+     </insert>
+
+    <select id="selectOrderInfo" resultType="org.ct.seckill.domain.OrderInfo">
+        SELECT * FROM order_info WHERE id=(SELECT order_id FROM miaosha_order WHERE id=#{orderId});
+    </select>
+</mapper>

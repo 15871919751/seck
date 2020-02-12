@@ -1,4 +1,5 @@
-function login(){
+function
+login(){
     $('#loginForm').validate({
         submitHandler:function(form){
             var captcha1 = new TencentCaptcha('2098093657', function (res) {
@@ -18,7 +19,7 @@ function doLogin(){
     console.log(pass)
     $.ajax({
         type : "POST",
-        url :  "/seckill/login/do_login",
+        url :  "/login/do_login",
         data : {
             "mobile":$("#mobile").val(),
             "password":pass
@@ -28,7 +29,7 @@ function doLogin(){
             console.log(data)
             if(data.state == 200){
                 layer.msg("登录成功", {time: 1000}, function () {
-                    window.location.href="/seckill/goods/to_list";
+                    window.location.href="/goods/to_list";
                 });
             }else{
                 layer.msg(data.msg);;

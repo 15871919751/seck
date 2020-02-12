@@ -1,8 +1,5 @@
 server:
   port: 8080
-  servlet:
-    context-path: /seckill
-
 
 spring:
   thymeleaf:
@@ -12,37 +9,53 @@ spring:
     encoding: UTF-8
     mode: HTML5
     cache: false
-
+ #static
+  resources:
+    add-mappings: true
+    chain:
+      cache: true
+      enabled: true
+      compressed: true
+      html-application-cache: true
+    static-locations: classpath:/static/
+    cache:
+     period: 3600
+  #rabbitmq
+  rabbitmq:
+   host: 47.101.133.15
+   port: 5672
+   username: guest
+   password: guest
+   virtual-host: /
+   listener:
+     simple:
+       concurrency: 10
+       max-concurrency: 10
+       prefetch: 1
+       auto-startup: true
+       default-requeue-rejected: true
+   template:
+     retry:
+       enabled: true
+       initial-interval: 1000
+       max-attempts: 3
+       max-interval: 10000
+       multiplier: 1.0
   #连接池
   datasource:
-    username: root
-    password: password123123
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/seckill?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
-    druid:
-      filters: stat,wall,slf4j,config
-      max-active: 100
-      initial-size: 1
-      max-wait: 60000
-      min-idle: 1
-      time-between-eviction-runs-millis: 60000
-      min-evictable-idle-time-millis: 300000
-      validation-query: select 'x'
-      test-on-borrow: false
-      test-on-return: false
-      pool-prepared-statements: true
-      max-open-prepared-statements: 50
-      max-pool-prepared-statement-per-connection-size: 20
+   username: root
+   password: 123456-abc
+   driver-class-name: com.mysql.cj.jdbc.Driver
+   url: jdbc:mysql://47.101.133.15:3306/seckill?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
 
-
-
+#static
 redis:
   host: 47.101.133.15 #localhost
   port: 6379
-  timeout: 3
-  maxActive: 8
-  maxIdle: 10
-  maxWait: 3
+  timeout: 10
+  maxActive: 1500
+  maxIdle: 500
+  maxWait: 500
   password: 123456
 
 # mybatis

@@ -1,38 +1,66 @@
-2020-01-27 00:10:24.813[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 00:19:07.615[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 00:34:35.061[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 01:14:57.813[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 01:24:42.998[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 01:29:15.110[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 01:36:50.663[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 01:38:38.391[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 01:39:59.659[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 01:41:37.260[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 01:47:28.617[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 01:56:28.124[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 02:00:19.465[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 02:03:28.281[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 02:04:16.258[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 02:05:12.440[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 11:53:48.988[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 11:58:29.987[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 12:04:31.754[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 12:08:16.096[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 12:29:19.834[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 12:40:18.557[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 12:43:45.269[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 13:18:38.332[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 13:23:49.449[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 13:24:54.539[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - ==>  Preparing: select * from miaosha_user where id = ? 
-2020-01-27 13:24:54.666[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - ==> Parameters: 15871919751(Long)
-2020-01-27 13:24:54.728[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - <==      Total: 1
-2020-01-27 13:24:56.293[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: select g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join Goods g on mg.goods_id=g.id 
-2020-01-27 13:24:56.299[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
-2020-01-27 13:24:56.307[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
-2020-01-27 13:33:48.968[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-27 13:34:26.139[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - ==>  Preparing: select * from miaosha_user where id = ? 
-2020-01-27 13:34:26.267[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - ==> Parameters: 15871919751(Long)
-2020-01-27 13:34:26.298[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - <==      Total: 1
-2020-01-27 13:34:27.816[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: select g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join Goods g on mg.goods_id=g.id 
-2020-01-27 13:34:27.824[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
-2020-01-27 13:34:27.833[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 18:21:28.691[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-08 18:21:36.637[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 18:21:36.668[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 18:21:36.731[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 18:23:14.290[http-nio-8080-exec-6] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 18:23:14.291[http-nio-8080-exec-6] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 18:23:14.324[http-nio-8080-exec-6] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 18:23:16.517[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id WHERE g.id=? 
+2020-02-08 18:23:16.519[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==> Parameters: 1(Long)
+2020-02-08 18:23:16.553[http-nio-8080-exec-1] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - <==      Total: 1
+2020-02-08 18:24:37.637[http-nio-8080-exec-8] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id WHERE g.id=? 
+2020-02-08 18:24:37.638[http-nio-8080-exec-8] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==> Parameters: 1(Long)
+2020-02-08 18:24:37.671[http-nio-8080-exec-8] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - <==      Total: 1
+2020-02-08 18:33:58.657[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-08 18:34:09.474[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 18:34:09.515[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 18:34:09.590[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 18:39:08.296[http-nio-8080-exec-6] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 18:39:08.297[http-nio-8080-exec-6] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 18:39:08.325[http-nio-8080-exec-6] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 18:39:10.434[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id WHERE g.id=? 
+2020-02-08 18:39:10.436[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==> Parameters: 1(Long)
+2020-02-08 18:39:10.462[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - <==      Total: 1
+2020-02-08 18:41:51.260[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-08 18:42:05.777[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 18:42:05.839[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 18:42:05.927[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 18:45:16.264[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 18:45:16.265[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 18:45:16.294[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 18:45:21.168[http-nio-8080-exec-6] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id WHERE g.id=? 
+2020-02-08 18:45:21.174[http-nio-8080-exec-6] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==> Parameters: 1(Long)
+2020-02-08 18:45:21.198[http-nio-8080-exec-6] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - <==      Total: 1
+2020-02-08 18:51:03.142[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-08 18:51:12.117[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 18:51:12.158[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 18:51:12.213[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 18:51:41.448[http-nio-8080-exec-2] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - ==>  Preparing: select * from miaosha_user where id = ? 
+2020-02-08 18:51:41.451[http-nio-8080-exec-2] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - ==> Parameters: 15871919751(Long)
+2020-02-08 18:51:41.477[http-nio-8080-exec-2] DEBUG org.ct.seckill.dao.SecKillUserDao.getById - <==      Total: 1
+2020-02-08 18:51:43.103[http-nio-8080-exec-4] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 18:51:43.103[http-nio-8080-exec-4] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 18:51:43.132[http-nio-8080-exec-4] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 18:51:44.295[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id WHERE g.id=? 
+2020-02-08 18:51:44.296[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==> Parameters: 1(Long)
+2020-02-08 18:51:44.322[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - <==      Total: 1
+2020-02-08 18:53:34.055[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-08 18:53:40.534[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 18:53:40.563[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 18:53:40.616[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 18:55:00.501[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 18:55:00.501[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 18:55:00.528[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 18:55:02.365[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id WHERE g.id=? 
+2020-02-08 18:55:02.367[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==> Parameters: 1(Long)
+2020-02-08 18:55:02.406[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - <==      Total: 1
+2020-02-08 18:59:00.354[main] DEBUG org.ct.seckill.SeckillApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-08 18:59:07.080[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 18:59:07.108[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 18:59:07.166[main] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 19:04:09.419[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id 
+2020-02-08 19:04:09.420[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - ==> Parameters: 
+2020-02-08 19:04:09.450[http-nio-8080-exec-3] DEBUG org.ct.seckill.dao.GoodsDao.getListGoodsVo - <==      Total: 2
+2020-02-08 19:04:11.245[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==>  Preparing: SELECT g.*, mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id WHERE g.id=? 
+2020-02-08 19:04:11.246[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - ==> Parameters: 1(Long)
+2020-02-08 19:04:11.276[http-nio-8080-exec-5] DEBUG org.ct.seckill.dao.GoodsDao.getGoodsVoByGoodsId - <==      Total: 1

@@ -13,10 +13,9 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @EqualsAndHashCode(callSuper = true)
 public class GoodsVo extends Goods {
-    private Double seckillPrice;
+    private Double secKillPrice;
     private Integer stockCount;
     private Date startDate;
     private Date endDate;

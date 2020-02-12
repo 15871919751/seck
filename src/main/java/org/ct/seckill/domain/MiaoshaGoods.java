@@ -17,7 +17,7 @@ import java.util.Date;
 public class MiaoshaGoods implements Serializable {
     private Long id;
     private Long goodsId;
-    private Double seckillPrice;
+    private Double secKillPrice;
     private Integer stockCount;
     private Date startDate;
     private Date endDate;

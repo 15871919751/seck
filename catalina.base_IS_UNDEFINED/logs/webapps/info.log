@@ -1,66 +1,18 @@
-2020-01-27 00:10:24.702[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 7548 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 00:10:24.933[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 00:19:07.608[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 5476 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 00:19:07.617[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 00:34:35.054[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 10052 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 00:34:35.062[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 00:34:43.188[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.346 seconds (JVM running for 12.495)
-2020-01-27 01:14:57.808[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 8840 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 01:14:57.813[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 01:24:42.978[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 13256 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 01:24:43.000[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 01:29:15.104[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 6104 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 01:29:15.112[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 01:36:50.657[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 10124 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 01:36:50.664[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 01:38:38.366[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 11940 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 01:38:38.392[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 01:39:59.651[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 13264 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 01:39:59.660[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 01:41:37.254[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 10704 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 01:41:37.260[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 01:47:28.611[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 12128 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 01:47:28.618[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 01:47:37.463[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 10.309 seconds (JVM running for 13.641)
-2020-01-27 01:56:28.109[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 8068 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 01:56:28.125[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 01:56:36.595[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.67 seconds (JVM running for 12.756)
-2020-01-27 02:00:19.457[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 8932 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 02:00:19.467[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 02:00:30.101[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 11.784 seconds (JVM running for 15.157)
-2020-01-27 02:03:28.274[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 14292 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 02:03:28.282[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 02:04:16.251[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 3468 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 02:04:16.258[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 02:05:12.421[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 9484 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 02:05:12.441[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 02:05:20.661[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.366 seconds (JVM running for 12.503)
-2020-01-27 11:53:48.982[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 14568 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 11:53:48.989[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 11:58:29.980[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 14404 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 11:58:29.998[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 11:58:39.071[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 10.279 seconds (JVM running for 13.752)
-2020-01-27 12:04:31.746[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 9616 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 12:04:31.755[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 12:04:41.142[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 10.468 seconds (JVM running for 13.576)
-2020-01-27 12:08:16.089[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 13980 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 12:08:16.097[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 12:08:24.416[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.394 seconds (JVM running for 12.687)
-2020-01-27 12:29:19.829[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 12852 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 12:29:19.835[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 12:29:28.243[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.57 seconds (JVM running for 13.077)
-2020-01-27 12:40:18.550[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 1184 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 12:40:18.558[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 12:40:26.715[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.311 seconds (JVM running for 12.478)
-2020-01-27 12:43:45.260[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 14084 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 12:43:45.270[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 12:43:55.381[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 11.357 seconds (JVM running for 15.48)
-2020-01-27 13:18:38.326[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 6156 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 13:18:38.333[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 13:18:46.296[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.127 seconds (JVM running for 12.971)
-2020-01-27 13:23:49.444[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 5924 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 13:23:49.451[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 13:23:56.555[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 8.515 seconds (JVM running for 12.284)
-2020-01-27 13:33:48.962[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 7500 (F:\sec\target\classes started by A555L in F:\sec)
-2020-01-27 13:33:48.969[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
-2020-01-27 13:33:55.358[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 7.575 seconds (JVM running for 10.819)
+2020-02-08 18:21:28.675[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 39164 (F:\sec\target\classes started by A555L in F:\sec)
+2020-02-08 18:21:28.704[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-02-08 18:21:39.293[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 11.472 seconds (JVM running for 17.435)
+2020-02-08 18:33:58.635[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 44152 (F:\sec\target\classes started by A555L in F:\sec)
+2020-02-08 18:33:58.658[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-02-08 18:34:13.708[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 16.727 seconds (JVM running for 20.358)
+2020-02-08 18:41:51.253[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 12408 (F:\sec\target\classes started by A555L in F:\sec)
+2020-02-08 18:41:51.261[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-02-08 18:42:09.786[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 19.503 seconds (JVM running for 25.244)
+2020-02-08 18:51:03.135[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 2972 (F:\sec\target\classes started by A555L in F:\sec)
+2020-02-08 18:51:03.142[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-02-08 18:51:14.972[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 13.193 seconds (JVM running for 17.688)
+2020-02-08 18:53:34.049[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 38988 (F:\sec\target\classes started by A555L in F:\sec)
+2020-02-08 18:53:34.056[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-02-08 18:53:42.629[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 9.838 seconds (JVM running for 13.204)
+2020-02-08 18:59:00.342[main] INFO  org.ct.seckill.SeckillApplication - Starting SeckillApplication on DESKTOP-211B7LI with PID 30676 (F:\sec\target\classes started by A555L in F:\sec)
+2020-02-08 18:59:00.355[main] INFO  org.ct.seckill.SeckillApplication - No active profile set, falling back to default profiles: default
+2020-02-08 18:59:09.450[main] INFO  org.ct.seckill.SeckillApplication - Started SeckillApplication in 10.387 seconds (JVM running for 14.143)

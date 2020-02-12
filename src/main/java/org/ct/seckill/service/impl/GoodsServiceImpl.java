@@ -2,6 +2,7 @@ package org.ct.seckill.service.impl;
 
 import lombok.extern.slf4j.Slf4j;
 import org.ct.seckill.dao.GoodsDao;
+import org.ct.seckill.domain.MiaoshaGoods;
 import org.ct.seckill.service.GoosService;
 import org.ct.seckill.vo.GoodsVo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,5 +25,17 @@ public class GoodsServiceImpl implements GoosService {
     @Override
     public List<GoodsVo> getListGoodsVo() {
         return goodsDao.getListGoodsVo();
+    }
+    @Override
+    public GoodsVo getGoodsVoByGoodsId(Long goodsId){
+        return goodsDao.getGoodsVoByGoodsId(goodsId);
+    }
+
+    @Override
+    public boolean reduceStock(GoodsVo goodsVo) {
+        MiaoshaGoods miaoshaGoods = new MiaoshaGoods();
+        miaoshaGoods.setGoodsId(goodsVo.getId());
+        int result = goodsDao.reduceStock(miaoshaGoods);
+        return result > 0;
     }
 }

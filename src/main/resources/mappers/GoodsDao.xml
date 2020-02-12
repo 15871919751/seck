@@ -4,9 +4,19 @@
 <mapper namespace="org.ct.seckill.dao.GoodsDao">
 
     <select id="getListGoodsVo" resultType="org.ct.seckill.vo.GoodsVo">
-     select g.*,
+     SELECT g.*,
      mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date
-     from miaosha_goods mg left join Goods g on mg.goods_id=g.id
+     FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id
      </select>
+
+    <select id="getGoodsVoByGoodsId" resultType="org.ct.seckill.vo.GoodsVo">
+     SELECT g.*,
+     mg.seckill_price,mg.stock_count,mg.start_date,mg.end_date
+     FROM miaosha_goods mg LEFT JOIN goods g ON mg.goods_id=g.id WHERE g.id=#{goodsId}
+    </select>
+
+    <update id="reduceStock" parameterType="org.ct.seckill.domain.MiaoshaGoods">
+        UPDATE miaosha_goods set stock_count=stock_count-1 where goods_id=#{miaoshaGoods.goodsId} and stock_count>0
+    </update>
 
 </mapper>

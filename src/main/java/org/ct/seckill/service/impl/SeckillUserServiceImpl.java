@@ -8,6 +8,7 @@ import org.ct.seckill.dao.SecKillUserDao;
 import org.ct.seckill.domain.SecKillUser;
 import org.ct.seckill.redis.RedisService;
 import org.ct.seckill.redis.RedisSeckillUser;
+import org.ct.seckill.redis.UserKey;
 import org.ct.seckill.service.SeckillUserService;
 import org.ct.seckill.util.UUIDUtil;
 import org.ct.seckill.vo.LoginVo;
@@ -44,10 +45,15 @@ public class SeckillUserServiceImpl implements SeckillUserService {
         if (loginVo == null) {
             return MyRsp.wrapper(new MyException(CodeMsg.FAIL));
         }
-        SecKillUser secKillUser = secKillUserDao.getById(Long.valueOf(loginVo.getMobile()));
-        if (secKillUser==null) {
-            return MyRsp.wrapper(new MyException(CodeMsg.MOBILE_ERROR));
+        //取缓存
+        SecKillUser secKillUser = redisService.get(UserKey.GET_BY_ID, loginVo.getMobile(), SecKillUser.class);
+        if (secKillUser == null) {
+             secKillUser  = secKillUserDao.getById(Long.valueOf(loginVo.getMobile()));
+            if (secKillUser==null) {
+                return MyRsp.wrapper(new MyException(CodeMsg.MOBILE_ERROR));
+            }
         }
+        redisService.set(UserKey.GET_BY_ID, loginVo.getMobile(), secKillUser);
         String mobile = String.valueOf(secKillUser.getId());
         String password = secKillUser.getPassword();
         if (!loginVo.getMobile().equals(mobile)) {

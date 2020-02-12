@@ -18,7 +18,7 @@ public class OrderInfo implements Serializable {
     private Long id;
     private Long userId;
     private Long goodsId;
-    private Long deliveryddrId;
+    private Long deliveryAddrId;
     private String goodsName;
     private Integer goodsCount;
     private Double goodsPrice;
